@@ -35,7 +35,7 @@ Lovinex is built with a scale-first mindset — designed to serve users from Lag
 ## Author
 Krespo (Samson Onuh)
 Founder @ Krespo Labs
-LinkedIn: https://linkedin.com/in/onuh-samson
+LinkedIn: https://linkedin.com/in/onuh-samson-4658aa2a2
 Website: https://krespoai.netlify.app
 GitHub: https://github.com/Krespolabs
 
