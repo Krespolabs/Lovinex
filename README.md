@@ -1,42 +1,61 @@
-# Lovinex 💛
-Luxury dating experience engineered for the African market.
+# Lovinex
 
-Lovinex is a modern dating web application built for Nigerian and African users — combining elegant UI design with real-time features to deliver a premium connection experience.
+Lovinex is a Next.js landing-page project presenting a concept for a dating service aimed at connecting people across cultures. The current application is a frontend experience; it does not provide a production dating service or backend features such as accounts, messaging, profile verification, payments, or matchmaking.
 
-## Tech Stack
-- Framework: Next.js 14 App Router
-- Language: TypeScript
-- Architecture: Component-based, hooks-driven
-- Deployment: Vercel
+## Current development status
 
-## Project Structure
-- app/ — Next.js pages
-- components/ — Reusable UI components
-- hooks/ — Custom React hooks
-- lib/ — Utility functions
-- public/ — Static assets
-- styles/ — Global styles
+The repository contains a responsive marketing-style homepage, shared UI components, and frontend utilities. Product and safety descriptions visible on the page are presentation copy, not evidence of implemented service functionality. No production deployment or backend integration is configured in this repository.
 
-## Features
-- Luxury-first UI designed for the African dating market
-- Component-driven architecture for scalability
-- Custom hooks for clean state management
-- Optimized for performance and mobile experience
+## Tech stack
 
-## Install and Run
-- git clone https://github.com/Krespolabs/Lovinex.git
-- cd Lovinex
-- pnpm install
-- pnpm dev
+- Next.js **15.2.4** (App Router)
+- React 19 and TypeScript
+- Tailwind CSS and shared Radix-based UI components
+- pnpm for package management
 
-## Vision
-Lovinex is built with a scale-first mindset — designed to serve users from Lagos to Nairobi, from 100K to 100M users without architectural compromise.
+## Repository layout
+
+The runnable Next.js project is in `LOVINEX/`:
+
+- `LOVINEX/app/` — App Router layout and homepage
+- `LOVINEX/components/` — shared components
+- `LOVINEX/hooks/` — custom React hooks
+- `LOVINEX/lib/` — shared utilities
+- `LOVINEX/public/` — static assets
+- `LOVINEX/tests/` — unit tests
+
+## Getting started
+
+Run these commands from the repository root:
+
+```sh
+cd LOVINEX
+pnpm install --frozen-lockfile
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000). To create and run the production build:
+
+```sh
+pnpm build
+pnpm start
+```
+
+## Tests
+
+Run the automated unit tests from `LOVINEX/`:
+
+```sh
+pnpm test
+```
+
+The tests exercise the existing `cn` utility used by the UI to combine conditional class values and resolve conflicting Tailwind classes. GitHub Actions runs the tests and production build on pushes and pull requests.
 
 ## Author
-Krespo (Samson Onuh)
-Founder @ Krespo Labs
-LinkedIn: https://linkedin.com/in/onuh-samson-4658aa2a2
-Website: https://krespoai.netlify.app
-GitHub: https://github.com/Krespolabs
 
-Portfolio PDF: https://github.com/Krespolabs/Krespolabs-/blob/main/docs/portfolio_samson_onuh.pdf
+**Krespo (Samson Onuh)** — Founder, Krespo Labs
+
+- LinkedIn: [linkedin.com/in/onuh-samson-4658aa2a2](https://www.linkedin.com/in/onuh-samson-4658aa2a2/)
+- Website: [krespoai.netlify.app](https://krespoai.netlify.app)
+- GitHub: [Krespolabs](https://github.com/Krespolabs)
+- Portfolio PDF: [Samson Onuh portfolio](https://github.com/Krespolabs/Krespolabs-/blob/main/docs/portfolio_samson_onuh.pdf)
