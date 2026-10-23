@@ -8,10 +8,11 @@ The repository contains a responsive marketing-style homepage, shared UI compone
 
 ## Tech stack
 
-- Next.js **15.2.4** (App Router)
+- Next.js **15.5.28** (App Router)
 - React 19 and TypeScript
 - Tailwind CSS and shared Radix-based UI components
 - pnpm for package management
+- Node.js **20.9 or newer**
 
 ## Repository layout
 
